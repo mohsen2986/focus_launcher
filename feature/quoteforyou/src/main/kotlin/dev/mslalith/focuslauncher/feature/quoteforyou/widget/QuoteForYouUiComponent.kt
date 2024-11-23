@@ -22,7 +22,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import dev.mslalith.focuslauncher.core.common.model.getOrNull
 import dev.mslalith.focuslauncher.core.model.Quote
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
 import dev.mslalith.focuslauncher.feature.quoteforyou.R
 
 @Composable

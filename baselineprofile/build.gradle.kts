@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "dev.mslalith.focuslauncher.baselineprofile"
+    namespace = "com.mohsen.clarityhub.baselineprofile"
     compileSdk = libs.versions.androidTargetSdk.get().toInt()
 
     compileOptions {

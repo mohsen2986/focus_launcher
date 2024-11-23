@@ -10,8 +10,8 @@ import androidx.compose.ui.unit.dp
 import dev.mslalith.focuslauncher.core.common.extensions.asPercent
 import dev.mslalith.focuslauncher.core.common.extensions.limitDecimals
 import dev.mslalith.focuslauncher.core.model.lunarphase.LunarPhaseDetails
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
-import dev.mslalith.focuslauncher.core.ui.extensions.string
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.extensions.string
 import dev.mslalith.focuslauncher.feature.lunarcalendar.R
 
 @Composable

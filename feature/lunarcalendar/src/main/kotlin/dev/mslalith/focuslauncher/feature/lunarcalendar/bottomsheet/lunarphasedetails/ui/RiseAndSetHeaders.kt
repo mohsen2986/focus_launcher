@@ -6,7 +6,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
-import dev.mslalith.focuslauncher.core.ui.FillSpacer
+import com.mohsen.clarityhub.core.ui.FillSpacer
 import dev.mslalith.focuslauncher.feature.lunarcalendar.R
 
 @Composable

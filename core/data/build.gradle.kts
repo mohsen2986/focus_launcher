@@ -7,10 +7,10 @@ plugins {
 }
 
 android {
-    namespace = "dev.mslalith.focuslauncher.core.data"
+    namespace = "com.mohsen.clarityhub.core.data"
 
     defaultConfig {
-        testInstrumentationRunner = "dev.mslalith.focuslauncher.core.testing.HiltTestRunner"
+        testInstrumentationRunner = "com.mohsen.clarityhub.core.testing.HiltTestRunner"
     }
     sourceSets {
         getByName("test").assets.srcDir("$projectDir/schemas")

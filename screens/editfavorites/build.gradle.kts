@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "dev.mslalith.focuslauncher.screens.editfavorites"
+    namespace = "com.mohsen.clarityhub.screens.editfavorites"
 }
 
 dependencies {

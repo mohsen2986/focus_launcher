@@ -24,9 +24,9 @@ import dev.mslalith.focuslauncher.core.model.UiText
 import dev.mslalith.focuslauncher.core.model.app.App
 import dev.mslalith.focuslauncher.core.model.appdrawer.AppDrawerItem
 import dev.mslalith.focuslauncher.core.screens.AppMoreOptionsBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.ConfirmSelectableItem
-import dev.mslalith.focuslauncher.core.ui.SelectableIconItem
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.ConfirmSelectableItem
+import com.mohsen.clarityhub.core.ui.SelectableIconItem
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
 import dev.mslalith.focuslauncher.feature.appdrawerpage.R
 
 @CircuitInject(AppMoreOptionsBottomSheetScreen::class, SingletonComponent::class)

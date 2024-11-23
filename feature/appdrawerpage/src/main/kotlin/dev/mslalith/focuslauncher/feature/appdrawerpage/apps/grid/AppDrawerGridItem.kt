@@ -25,8 +25,8 @@ import androidx.compose.ui.unit.dp
 import androidx.core.graphics.drawable.toBitmap
 import dev.mslalith.focuslauncher.core.model.appdrawer.AppDrawerIconViewType
 import dev.mslalith.focuslauncher.core.model.appdrawer.AppDrawerItem
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
-import dev.mslalith.focuslauncher.core.ui.remember.rememberAppColor
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.remember.rememberAppColor
 import dev.mslalith.focuslauncher.feature.appdrawerpage.utils.Constants.APP_ICON_SIZE
 
 @OptIn(ExperimentalFoundationApi::class)

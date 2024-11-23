@@ -16,8 +16,8 @@ import com.slack.circuit.codegen.annotations.CircuitInject
 import dagger.hilt.components.SingletonComponent
 import dev.mslalith.focuslauncher.core.model.Theme
 import dev.mslalith.focuslauncher.core.screens.ThemeSelectionBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.Blob
-import dev.mslalith.focuslauncher.core.ui.extensions.string
+import com.mohsen.clarityhub.core.ui.Blob
+import com.mohsen.clarityhub.core.ui.extensions.string
 import dev.mslalith.focuslauncher.feature.theme.R
 import dev.mslalith.focuslauncher.feature.theme.model.ThemeWithIcon
 import kotlinx.collections.immutable.ImmutableList

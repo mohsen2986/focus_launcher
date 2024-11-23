@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "dev.mslalith.focuslauncher.screens.currentplace"
+    namespace = "com.mohsen.clarityhub.screens.currentplace"
 }
 
 dependencies {

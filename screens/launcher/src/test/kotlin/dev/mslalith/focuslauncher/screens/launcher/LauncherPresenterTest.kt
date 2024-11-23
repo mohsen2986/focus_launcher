@@ -2,6 +2,8 @@ package dev.mslalith.focuslauncher.screens.launcher
 
 import app.cash.turbine.ReceiveTurbine
 import com.google.common.truth.Truth.assertThat
+import com.mohsen.clarityhub.screens.launcher.LauncherPresenter
+import com.mohsen.clarityhub.screens.launcher.LauncherState
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import dagger.hilt.android.testing.HiltTestApplication
@@ -64,7 +66,7 @@ class LauncherPresenterTest : PresenterTest<LauncherPresenter, LauncherState>() 
     override fun presenterUnderTest() = LauncherPresenter(
         navigator = navigator,
         settingsPagePresenterFactory = settingsPagePresenterFactory,
-        homePagePresenter = homePagePresenter,
+        homePagePresenterFactory = homePagePresenter,
         appDrawerPagePresenter = appDrawerPagePresenter,
         loadAllAppsUseCase = LoadAllAppsUseCase(
             launcherAppsManager = testLauncherAppsManager,

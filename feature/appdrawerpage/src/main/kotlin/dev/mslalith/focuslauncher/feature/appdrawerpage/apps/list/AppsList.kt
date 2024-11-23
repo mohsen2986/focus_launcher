@@ -16,7 +16,7 @@ import dev.mslalith.focuslauncher.core.common.extensions.groupByImmutable
 import dev.mslalith.focuslauncher.core.common.extensions.isAlphabet
 import dev.mslalith.focuslauncher.core.model.appdrawer.AppDrawerIconViewType
 import dev.mslalith.focuslauncher.core.model.appdrawer.AppDrawerItem
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
 import kotlinx.collections.immutable.ImmutableList
 
 @OptIn(ExperimentalFoundationApi::class)

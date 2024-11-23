@@ -21,7 +21,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.core.graphics.drawable.toBitmap
 import dev.mslalith.focuslauncher.core.model.appdrawer.AppDrawerIconViewType
 import dev.mslalith.focuslauncher.core.model.appdrawer.AppDrawerItem
-import dev.mslalith.focuslauncher.core.ui.remember.rememberAppColor
+import com.mohsen.clarityhub.core.ui.remember.rememberAppColor
 import dev.mslalith.focuslauncher.feature.appdrawerpage.utils.Constants.APP_ICON_SIZE
 import dev.mslalith.focuslauncher.feature.appdrawerpage.utils.Constants.ICON_INNER_HORIZONTAL_PADDING
 import dev.mslalith.focuslauncher.feature.appdrawerpage.utils.Constants.ITEM_END_PADDING

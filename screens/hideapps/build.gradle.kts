@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "dev.mslalith.focuslauncher.screens.hideapps"
+    namespace = "com.mohsen.clarityhub.screens.hideapps"
 }
 
 dependencies {

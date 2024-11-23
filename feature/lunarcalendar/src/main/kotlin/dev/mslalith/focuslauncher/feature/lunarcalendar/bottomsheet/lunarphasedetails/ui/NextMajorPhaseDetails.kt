@@ -14,8 +14,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import dev.mslalith.focuslauncher.core.model.lunarphase.NextPhaseDetails
-import dev.mslalith.focuslauncher.core.ui.HorizontalSpacer
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.HorizontalSpacer
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
 import dev.mslalith.focuslauncher.feature.lunarcalendar.R
 
 @Composable

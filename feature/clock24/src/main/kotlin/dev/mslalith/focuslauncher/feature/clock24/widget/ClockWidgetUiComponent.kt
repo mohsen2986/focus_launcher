@@ -21,10 +21,10 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import dev.mslalith.focuslauncher.core.model.ClockAlignment
 import dev.mslalith.focuslauncher.core.testing.compose.modifier.testsemantics.testSemantics
-import dev.mslalith.focuslauncher.core.ui.effects.OnLifecycleEventChange
-import dev.mslalith.focuslauncher.core.ui.effects.SystemBroadcastReceiver
-import dev.mslalith.focuslauncher.core.ui.extensions.clickableNoRipple
-import dev.mslalith.focuslauncher.core.ui.extensions.modifyIf
+import com.mohsen.clarityhub.core.ui.effects.OnLifecycleEventChange
+import com.mohsen.clarityhub.core.ui.effects.SystemBroadcastReceiver
+import com.mohsen.clarityhub.core.ui.extensions.clickableNoRipple
+import com.mohsen.clarityhub.core.ui.extensions.modifyIf
 import dev.mslalith.focuslauncher.feature.clock24.widget.ui.Clock24
 import dev.mslalith.focuslauncher.feature.clock24.widget.ui.CurrentTime
 import dev.mslalith.focuslauncher.feature.clock24.utils.TestTags

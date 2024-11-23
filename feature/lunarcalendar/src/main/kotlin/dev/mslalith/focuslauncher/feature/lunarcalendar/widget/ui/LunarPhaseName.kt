@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import dev.mslalith.focuslauncher.core.common.extensions.asPercent
 import dev.mslalith.focuslauncher.core.model.lunarphase.LunarPhaseDetails
-import dev.mslalith.focuslauncher.core.ui.extensions.string
+import com.mohsen.clarityhub.core.ui.extensions.string
 
 @Composable
 internal fun LunarPhaseName(

@@ -32,10 +32,10 @@ import dagger.hilt.components.SingletonComponent
 import dev.mslalith.focuslauncher.core.model.app.App
 import dev.mslalith.focuslauncher.core.model.app.AppWithColor
 import dev.mslalith.focuslauncher.core.screens.FavoritesBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.ActionButton
-import dev.mslalith.focuslauncher.core.ui.HorizontalSpacer
-import dev.mslalith.focuslauncher.core.ui.RoundIcon
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.ActionButton
+import com.mohsen.clarityhub.core.ui.HorizontalSpacer
+import com.mohsen.clarityhub.core.ui.RoundIcon
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
 import dev.mslalith.focuslauncher.feature.favorites.R
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf

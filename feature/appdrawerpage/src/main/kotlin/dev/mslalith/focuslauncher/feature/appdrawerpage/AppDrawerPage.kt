@@ -31,11 +31,11 @@ import dev.mslalith.focuslauncher.core.screens.AppDrawerPageScreen
 import dev.mslalith.focuslauncher.core.screens.AppMoreOptionsBottomSheetScreen
 import dev.mslalith.focuslauncher.core.screens.BottomSheetScreen
 import dev.mslalith.focuslauncher.core.screens.UpdateAppDisplayNameBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.DotWaveLoader
-import dev.mslalith.focuslauncher.core.ui.SearchField
-import dev.mslalith.focuslauncher.core.ui.effects.OnDayChangeListener
-import dev.mslalith.focuslauncher.core.ui.modifiers.verticalFadeOutEdge
-import dev.mslalith.focuslauncher.core.ui.providers.LocalLauncherPagerState
+import com.mohsen.clarityhub.core.ui.DotWaveLoader
+import com.mohsen.clarityhub.core.ui.SearchField
+import com.mohsen.clarityhub.core.ui.effects.OnDayChangeListener
+import com.mohsen.clarityhub.core.ui.modifiers.verticalFadeOutEdge
+import com.mohsen.clarityhub.core.ui.providers.LocalLauncherPagerState
 import dev.mslalith.focuslauncher.feature.appdrawerpage.apps.grid.AppsGrid
 import dev.mslalith.focuslauncher.feature.appdrawerpage.apps.list.AppsList
 import kotlinx.coroutines.flow.collectLatest

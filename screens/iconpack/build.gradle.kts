@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "dev.mslalith.focuslauncher.screens.iconpack"
+    namespace = "com.mohsen.clarityhub.screens.iconpack"
 }
 
 dependencies {

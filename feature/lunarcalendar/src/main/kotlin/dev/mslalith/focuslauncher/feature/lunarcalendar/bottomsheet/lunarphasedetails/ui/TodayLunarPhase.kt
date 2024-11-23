@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import dev.mslalith.focuslauncher.core.model.lunarphase.LunarPhaseDetails
-import dev.mslalith.focuslauncher.core.ui.HorizontalSpacer
+import com.mohsen.clarityhub.core.ui.HorizontalSpacer
 
 @Composable
 internal fun TodayLunarPhase(

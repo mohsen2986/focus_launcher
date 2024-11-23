@@ -8,9 +8,9 @@ import androidx.compose.ui.unit.dp
 import com.slack.circuit.codegen.annotations.CircuitInject
 import dagger.hilt.components.SingletonComponent
 import dev.mslalith.focuslauncher.core.screens.QuoteWidgetSettingsBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
-import dev.mslalith.focuslauncher.core.ui.settings.SettingsLoadableItem
-import dev.mslalith.focuslauncher.core.ui.settings.SettingsSelectableSwitchItem
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.settings.SettingsLoadableItem
+import com.mohsen.clarityhub.core.ui.settings.SettingsSelectableSwitchItem
 import dev.mslalith.focuslauncher.feature.quoteforyou.R
 import dev.mslalith.focuslauncher.feature.quoteforyou.settings.PreviewQuotes
 import dev.mslalith.focuslauncher.feature.quoteforyou.widget.QuoteForYouUiComponentState

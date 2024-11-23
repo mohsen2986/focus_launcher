@@ -8,7 +8,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import dev.mslalith.focuslauncher.core.common.extensions.inShortReadableFormat
 import dev.mslalith.focuslauncher.core.model.lunarphase.UpcomingLunarPhase
-import dev.mslalith.focuslauncher.core.ui.extensions.string
+import com.mohsen.clarityhub.core.ui.extensions.string
 import dev.mslalith.focuslauncher.feature.lunarcalendar.R
 
 @Composable

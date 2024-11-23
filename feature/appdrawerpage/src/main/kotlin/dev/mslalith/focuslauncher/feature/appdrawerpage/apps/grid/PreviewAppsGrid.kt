@@ -17,9 +17,9 @@ import androidx.compose.ui.unit.dp
 import dev.mslalith.focuslauncher.core.common.model.LoadingState
 import dev.mslalith.focuslauncher.core.model.appdrawer.AppDrawerIconViewType
 import dev.mslalith.focuslauncher.core.model.appdrawer.AppDrawerItem
-import dev.mslalith.focuslauncher.core.ui.DotWaveLoader
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
-import dev.mslalith.focuslauncher.core.ui.modifiers.verticalFadeOutEdge
+import com.mohsen.clarityhub.core.ui.DotWaveLoader
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.modifiers.verticalFadeOutEdge
 import kotlinx.collections.immutable.ImmutableList
 
 @Composable

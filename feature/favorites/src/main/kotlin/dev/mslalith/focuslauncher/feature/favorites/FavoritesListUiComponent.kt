@@ -27,7 +27,7 @@ import dev.mslalith.focuslauncher.core.common.extensions.launchApp
 import dev.mslalith.focuslauncher.core.model.app.AppWithColor
 import dev.mslalith.focuslauncher.core.screens.BottomSheetScreen
 import dev.mslalith.focuslauncher.core.screens.FavoritesBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.remember.rememberAppColor
+import com.mohsen.clarityhub.core.ui.remember.rememberAppColor
 import dev.mslalith.focuslauncher.feature.favorites.ui.StaggeredFlowRow
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.launch

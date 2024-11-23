@@ -1,6 +1,9 @@
 package dev.mslalith.focuslauncher.screens.currentplace
 
 import com.google.common.truth.Truth.assertThat
+import com.mohsen.clarityhub.screens.currentplace.CurrentPlacePresenter
+import com.mohsen.clarityhub.screens.currentplace.CurrentPlaceState
+import com.mohsen.clarityhub.screens.currentplace.CurrentPlaceUiEvent
 import dev.mslalith.focuslauncher.core.common.appcoroutinedispatcher.test.TestAppCoroutineDispatcher
 import dev.mslalith.focuslauncher.core.common.model.LoadingState
 import dev.mslalith.focuslauncher.core.common.network.test.FakeNetworkMonitor

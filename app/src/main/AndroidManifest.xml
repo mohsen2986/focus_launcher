@@ -54,21 +54,24 @@
         <meta-data
             android:name="io.sentry.auto-init"
             android:value="false" />
-        <meta-data
-            android:name="dev.mslalith.focuslauncher.sentryDsn"
-            android:value="${sentryDsn}" />
-        <meta-data
-            android:name="io.sentry.environment"
-            android:value="${sentryEnvironment}" />
+<!--        <meta-data-->
+<!--            android:name="dev.mslalith.focuslauncher.sentryDsn"-->
+<!--            android:value="${sentryDsn}" />-->
+        <meta-data android:name="io.sentry.dsn"
+            android:value="https://f1cd82187978b53299fb5f8d9eaa6a4e@o922782.ingest.us.sentry.io/4508303558901760"
+            />
+<!--        <meta-data-->
+<!--            android:name="io.sentry.environment"-->
+<!--            android:value="${sentryEnvironment}" />-->
 <!--        <meta-data-->
 <!--            android:name="io.sentry.debug"-->
 <!--            android:value="true" />-->
-        <meta-data
-            android:name="io.sentry.traces.user-interaction.enable"
-            android:value="true" />
-        <meta-data
-            android:name="io.sentry.attach-view-hierarchy"
-            android:value="true" />
+<!--        <meta-data-->
+<!--            android:name="io.sentry.traces.user-interaction.enable"-->
+<!--            android:value="true" />-->
+<!--        <meta-data-->
+<!--            android:name="io.sentry.attach-view-hierarchy"-->
+<!--            android:value="true" />-->
 
     </application>
 

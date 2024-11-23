@@ -10,13 +10,14 @@ plugins {
 }
 
 android {
-    namespace = "dev.mslalith.focuslauncher"
+//    namespace = "dev.mslalith.focuslauncher"
+    namespace = "com.mohsen.clarityhub"
 
     defaultConfig {
-        applicationId = "dev.mslalith.focuslauncher"
+        applicationId = "com.mohsen.clarityhub"
         versionCode = 15
         versionName = "0.9.0"
-        setProperty("archivesBaseName", "Focus-Launcher-v$versionName")
+        setProperty("archivesBaseName", "Clarity-Hub-v$versionName")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

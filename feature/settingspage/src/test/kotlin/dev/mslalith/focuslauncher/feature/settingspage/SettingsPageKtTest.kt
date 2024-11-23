@@ -30,7 +30,7 @@ import dev.mslalith.focuslauncher.core.testing.compose.assertion.waitForTagAndAs
 import dev.mslalith.focuslauncher.core.testing.compose.assertion.waitForTextAndAssertIsDisplayed
 import dev.mslalith.focuslauncher.core.testing.compose.extensions.performScrollToAndClick
 import dev.mslalith.focuslauncher.core.testing.compose.matcher.hasWidgetType
-import dev.mslalith.focuslauncher.core.ui.providers.ProvideSystemUiController
+import com.mohsen.clarityhub.core.ui.providers.ProvideSystemUiController
 import dev.mslalith.focuslauncher.feature.settingspage.utils.TestTags
 import org.junit.Before
 import org.junit.FixMethodOrder

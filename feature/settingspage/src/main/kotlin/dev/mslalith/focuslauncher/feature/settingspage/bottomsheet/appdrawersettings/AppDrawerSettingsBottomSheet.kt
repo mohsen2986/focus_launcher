@@ -14,10 +14,10 @@ import dev.mslalith.focuslauncher.core.model.AppDrawerViewType
 import dev.mslalith.focuslauncher.core.model.appdrawer.AppDrawerIconViewType
 import dev.mslalith.focuslauncher.core.screens.AppDrawerSettingsBottomSheetScreen
 import dev.mslalith.focuslauncher.core.testing.compose.modifier.testsemantics.testSemantics
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
-import dev.mslalith.focuslauncher.core.ui.extensions.string
-import dev.mslalith.focuslauncher.core.ui.settings.SettingsSelectableChooserItem
-import dev.mslalith.focuslauncher.core.ui.settings.SettingsSelectableSwitchItem
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.extensions.string
+import com.mohsen.clarityhub.core.ui.settings.SettingsSelectableChooserItem
+import com.mohsen.clarityhub.core.ui.settings.SettingsSelectableSwitchItem
 import dev.mslalith.focuslauncher.feature.settingspage.R
 import dev.mslalith.focuslauncher.feature.settingspage.utils.TestTags
 import kotlinx.collections.immutable.toImmutableList

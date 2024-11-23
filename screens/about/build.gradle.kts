@@ -5,5 +5,5 @@ plugins {
 }
 
 android {
-    namespace = "dev.mslalith.focuslauncher.screens.about"
+    namespace = "com.mohsen.clarityhub.screens.about"
 }

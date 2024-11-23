@@ -9,9 +9,9 @@ import com.slack.circuit.codegen.annotations.CircuitInject
 import dagger.hilt.components.SingletonComponent
 import dev.mslalith.focuslauncher.core.screens.CurrentPlaceScreen
 import dev.mslalith.focuslauncher.core.screens.LunarPhaseWidgetSettingsBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
-import dev.mslalith.focuslauncher.core.ui.settings.SettingsSelectableItem
-import dev.mslalith.focuslauncher.core.ui.settings.SettingsSelectableSwitchItem
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.settings.SettingsSelectableItem
+import com.mohsen.clarityhub.core.ui.settings.SettingsSelectableSwitchItem
 import dev.mslalith.focuslauncher.feature.lunarcalendar.R
 import dev.mslalith.focuslauncher.feature.lunarcalendar.settings.PreviewLunarCalendar
 import dev.mslalith.focuslauncher.feature.lunarcalendar.widget.LunarCalendarUiComponentState

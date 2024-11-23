@@ -22,8 +22,8 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import dev.mslalith.focuslauncher.core.model.Constants.Defaults.DEFAULT_CLOCK_24_ANALOG_RADIUS
 import dev.mslalith.focuslauncher.core.testing.compose.modifier.testsemantics.testSemantics
-import dev.mslalith.focuslauncher.core.ui.HorizontalSpacer
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.HorizontalSpacer
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
 import dev.mslalith.focuslauncher.feature.clock24.model.AnalogClockHandlePhase
 import dev.mslalith.focuslauncher.feature.clock24.model.AnalogClockPhase
 import dev.mslalith.focuslauncher.feature.clock24.model.Digit

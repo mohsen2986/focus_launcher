@@ -3,5 +3,5 @@ plugins {
 }
 
 android {
-    namespace = "dev.mslalith.focuslauncher.core.resources"
+    namespace = "com.mohsen.clarityhub.core.resources"
 }

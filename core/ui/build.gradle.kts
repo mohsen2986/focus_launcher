@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "dev.mslalith.focuslauncher.core.ui"
+    namespace = "com.mohsen.clarityhub.core.ui"
 }
 
 dependencies {

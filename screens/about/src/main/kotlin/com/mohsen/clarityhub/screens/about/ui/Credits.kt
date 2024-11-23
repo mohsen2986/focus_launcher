@@ -1,0 +1,40 @@
+package com.mohsen.clarityhub.screens.about.ui
+
+import androidx.compose.foundation.layout.Column
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import dev.mslalith.focuslauncher.core.model.Constants.Urls.PHOSPHOR_ICONS_URL
+import com.mohsen.clarityhub.core.resources.R
+import com.mohsen.clarityhub.core.ui.TextIconButton
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
+
+@Composable
+internal fun Credits(
+    modifier: Modifier = Modifier
+) {
+    val uriHandler = LocalUriHandler.current
+
+    Column(
+        modifier = modifier,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = stringResource(id = R.string.credits),
+            style = MaterialTheme.typography.titleLarge
+        )
+        VerticalSpacer(spacing = 12.dp)
+        TextIconButton(
+            icon = R.drawable.ic_logo_phosphor,
+            text = stringResource(id = R.string.phosphor_icons),
+            onClick = { uriHandler.openUri(uri = PHOSPHOR_ICONS_URL) },
+            backgroundColor = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.38f),
+            contentColor = MaterialTheme.colorScheme.onPrimaryContainer
+        )
+    }
+}

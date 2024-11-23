@@ -24,7 +24,7 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import dev.mslalith.focuslauncher.core.ui.HorizontalSpacer
+import com.mohsen.clarityhub.core.ui.HorizontalSpacer
 
 @Composable
 internal fun SettingsGridItem(

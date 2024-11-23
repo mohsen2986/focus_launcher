@@ -13,11 +13,11 @@ import dagger.hilt.components.SingletonComponent
 import dev.mslalith.focuslauncher.core.model.ClockAlignment
 import dev.mslalith.focuslauncher.core.model.Constants
 import dev.mslalith.focuslauncher.core.screens.ClockWidgetSettingsBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
-import dev.mslalith.focuslauncher.core.ui.extensions.string
-import dev.mslalith.focuslauncher.core.ui.settings.SettingsSelectableChooserItem
-import dev.mslalith.focuslauncher.core.ui.settings.SettingsSelectableSliderItem
-import dev.mslalith.focuslauncher.core.ui.settings.SettingsSelectableSwitchItem
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.extensions.string
+import com.mohsen.clarityhub.core.ui.settings.SettingsSelectableChooserItem
+import com.mohsen.clarityhub.core.ui.settings.SettingsSelectableSliderItem
+import com.mohsen.clarityhub.core.ui.settings.SettingsSelectableSwitchItem
 import dev.mslalith.focuslauncher.feature.clock24.R
 import dev.mslalith.focuslauncher.feature.clock24.settings.PreviewClock
 import dev.mslalith.focuslauncher.feature.clock24.widget.ClockWidgetUiComponentState

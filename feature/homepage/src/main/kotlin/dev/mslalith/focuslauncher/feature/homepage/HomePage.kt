@@ -2,28 +2,33 @@ package dev.mslalith.focuslauncher.feature.homepage
 
 import android.content.Intent
 import android.provider.AlarmClock
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.calculateStartPadding
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.LayoutDirection
 import com.slack.circuit.codegen.annotations.CircuitInject
 import com.slack.circuit.overlay.LocalOverlayHost
+import com.slack.circuit.runtime.screen.Screen
 import dagger.hilt.components.SingletonComponent
 import dev.mslalith.focuslauncher.core.circuitoverlay.bottomsheet.showBottomSheet
 import dev.mslalith.focuslauncher.core.common.extensions.openNotificationShade
 import dev.mslalith.focuslauncher.core.screens.BottomSheetScreen
 import dev.mslalith.focuslauncher.core.screens.HomePageScreen
 import dev.mslalith.focuslauncher.core.screens.LunarPhaseDetailsBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
-import dev.mslalith.focuslauncher.core.ui.extensions.onSwipeDown
+import dev.mslalith.focuslauncher.core.screens.SettingsPageScreen
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.extensions.onSwipeDown
 import dev.mslalith.focuslauncher.feature.clock24.widget.ClockWidgetUiComponent
 import dev.mslalith.focuslauncher.feature.favorites.FavoritesListUiComponent
 import dev.mslalith.focuslauncher.feature.homepage.model.HomePadding
@@ -39,6 +44,8 @@ fun HomePage(
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
     val overlayHost = LocalOverlayHost.current
+
+    val eventSink = state.eventSink
 
     fun showBottomSheet(screen: BottomSheetScreen<Unit>) {
         scope.launch { overlayHost.showBottomSheet(screen) }
@@ -56,6 +63,7 @@ fun HomePage(
         state = state,
         onClockWidgetClick = ::openClockApp,
         onLunarCalendarWidgetClick = { showBottomSheet(screen = LunarPhaseDetailsBottomSheetScreen) },
+        navigateTo = { eventSink(HomePageUiEvent.GoTo(screen = it)) },
         modifier = modifier
     )
 }
@@ -65,6 +73,7 @@ internal fun HomePage(
     state: HomePageState,
     onClockWidgetClick: () -> Unit,
     onLunarCalendarWidgetClick: () -> Unit,
+    navigateTo: (Screen) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
@@ -89,6 +98,9 @@ internal fun HomePage(
                     horizontalPadding = horizontalPadding,
                     onClick = onClockWidgetClick
                 )
+                Icon(painter = painterResource(R.drawable.ic_edit), contentDescription = null, modifier = Modifier.clickable {
+                    navigateTo.invoke(SettingsPageScreen)
+                })
                 DecoratedLunarCalendar(
                     state = state.lunarCalendarUiComponentState,
                     onClick = onLunarCalendarWidgetClick

@@ -26,7 +26,7 @@ import com.slack.circuit.codegen.annotations.CircuitInject
 import dagger.hilt.components.SingletonComponent
 import dev.mslalith.focuslauncher.core.model.app.App
 import dev.mslalith.focuslauncher.core.screens.UpdateAppDisplayNameBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
 import dev.mslalith.focuslauncher.feature.appdrawerpage.R
 
 @CircuitInject(UpdateAppDisplayNameBottomSheetScreen::class, SingletonComponent::class)

@@ -12,9 +12,16 @@ val installGitHooks by tasks.creating(Copy::class) {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 
     doLast {
-        val perms = Files.getPosixFilePermissions(toFilePath)
-        perms.add(PosixFilePermission.OWNER_EXECUTE)
-        Files.setPosixFilePermissions(toFilePath, perms)
+//        val perms = Files.getPosixFilePermissions(toFilePath)
+//        perms.add(PosixFilePermission.OWNER_EXECUTE)
+//        Files.setPosixFilePermissions(toFilePath, perms)
+        if (System.getProperty("os.name").contains("Windows", ignoreCase = true)) {
+            logger.lifecycle("Skipping permission setting on Windows")
+        } else {
+            val perms = Files.getPosixFilePermissions(toFilePath)
+            perms.add(PosixFilePermission.OWNER_EXECUTE)
+            Files.setPosixFilePermissions(toFilePath, perms)
+        }
     }
 }
 

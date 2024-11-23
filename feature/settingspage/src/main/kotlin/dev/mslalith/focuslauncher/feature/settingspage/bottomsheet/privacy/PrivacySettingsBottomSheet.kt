@@ -8,8 +8,8 @@ import androidx.compose.ui.unit.dp
 import com.slack.circuit.codegen.annotations.CircuitInject
 import dagger.hilt.components.SingletonComponent
 import dev.mslalith.focuslauncher.core.screens.PrivacySettingsBottomSheetScreen
-import dev.mslalith.focuslauncher.core.ui.VerticalSpacer
-import dev.mslalith.focuslauncher.core.ui.settings.SettingsSelectableSwitchItem
+import com.mohsen.clarityhub.core.ui.VerticalSpacer
+import com.mohsen.clarityhub.core.ui.settings.SettingsSelectableSwitchItem
 import dev.mslalith.focuslauncher.feature.settingspage.R
 
 @CircuitInject(PrivacySettingsBottomSheetScreen::class, SingletonComponent::class)
